@@ -24,7 +24,6 @@ def varadd(name, value):
         # 후디니 강제 종료
         sys.exit(1)
 
-
 # 네트워크 에디터 업데이트 모드를 Manual로 설정
 try:
     hou.setUpdateMode(hou.updateMode.Manual)
@@ -33,11 +32,9 @@ except Exception as e:
     print(f"❌ Failed to set Update Mode: {e}")
     sys.exit(1)
 
-
 # 환경 변수 추가 (실패하면 종료)
 varadd("IMPORTSCALE", "0.100000")
 varadd("RENDERSCALEX", "1920")
 varadd("RENDERSCALEY", "1080")
-
 
 print("\n✅ All presets applied successfully!\n\n")
