@@ -36,5 +36,6 @@ except Exception as e:
 varadd("IMPORTSCALE", "0.100000")
 varadd("RENDERSCALEX", "1920")
 varadd("RENDERSCALEY", "1080")
+varadd("USER", "Yong")
 
 print("\n✅ All presets applied successfully!\n\n")
