@@ -1,15 +1,11 @@
 # 조용현
-# 2025-02-27 (Tue)
+# 2025-02-27 (Thu)
 # v1.1
 # Houdini 환경 변수 및 네트워크 업데이트 설정 스크립트
 
 import hou, sys, toolutils
-from datetime import datetime
 
-# 현재 날짜 자동 갱신
-current_date = datetime.now().strftime("%Y-%m-%d (%a)")
-
-print(f"\n\n✅ Houdini preset is now loading... ({current_date})\n")
+print(f"\n\n✅ Houdini preset is now loading...\n")
 
 # 변수 추가 함수 (실패 시 강제 종료)
 def varadd(name, value):
